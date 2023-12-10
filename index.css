@@ -1,0 +1,80 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Scoreboard_font.ttf);
+  }
+
+body {
+    margin: 0;
+    font-family: "Verdana";
+    font-weight: bolds;
+    background-color: #EEEEEE;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #0369A1;
+    width: 575;
+    height: 385;
+    margin: 40px auto;
+    background-color: #0369A1;
+    color: #EEEEEE;
+}
+
+.homeBox {
+    width: 155px;
+    height: 120px;
+    border: 1px solid black;
+    background: black;
+}
+
+.Hometxt {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.Guesttxt {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.guestBox {
+    width: 155px;
+    height: 120px;
+    border: 1px solid black;
+    background: black;
+}
+
+#Homezero {
+    margin: 14px 50px;
+    font-family: myFirstFont;
+    color: #BAE6FD;
+    font-size: 80px;
+}
+
+#Guestzero {
+    margin: 14px 50px;
+    font-family: myFirstFont;
+    color: #BAE6FD;
+    font-size: 80px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5px;
+    padding: 0px 10px;
+}
+
+button {
+    background-color: #0369A1;
+    border: 2px solid white;
+    width: 35px;
+    height: 30px;
+    font-family: myFirstFont;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px white;
+}
